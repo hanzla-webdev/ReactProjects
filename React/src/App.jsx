@@ -1,11 +1,10 @@
-import { useState } from 'react'
+import Easyreact from './reactiseasy'
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <h1>chai or react with viteLogo</h1>
+    <Easyreact />
   )
 }
 

@@ -1,7 +1,10 @@
-
+import Es from "./Er";
 function App() {
   return (
-    <h1>React is Easy</h1>
+    <div>
+      <h4>react in 20 days</h4>
+      <Es />
+    </div>
   );
 }
 
