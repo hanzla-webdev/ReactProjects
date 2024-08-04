@@ -8,7 +8,12 @@ function App() {
   let [counter, setCounter] = useState(15);
 
   const addValue = () => {
-    setCounter(counter + 1);
+    console.log('hahah')
+    setCounter(prevCounter => prevCounter + 1);
+    setCounter(prevCounter => prevCounter + 1);
+    setCounter(prevCounter => prevCounter + 1);
+
+    // the value is not changing due to fibre thinks thats its the same function runing agai anad again.Istead of this we can use the previous state of the setter mean setCounter and updates is by using puting the previous state in setcounter.
     console.log('value added', counter)
   }
 
