@@ -8,7 +8,7 @@ function App() {
   let [counter, setCounter] = useState(15);
 
   const addValue = () => {
-    console.log('hahah')
+    // console.log('hahah')
     setCounter(prevCounter => prevCounter + 1);
     setCounter(prevCounter => prevCounter + 1);
     setCounter(prevCounter => prevCounter + 1);
